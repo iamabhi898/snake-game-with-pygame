@@ -14,11 +14,6 @@ screen = pygame.display.set_mode((screenWidth, screenHeight))
 # caption the window
 pygame.display.set_caption("SNAKE")
 
-# icon of the window
-icon = pygame.image.load(
-    "C:\\Users\\hp\\Desktop\\All\\vs_codes\\pygamecode\\Snake\\snake.png")
-pygame.display.set_icon(icon)
-
 # colors for the game
 dim_white = (100, 100, 100)  # color of grid lines and scoreCount
 white = (0, 0, 255)  # color of snake
